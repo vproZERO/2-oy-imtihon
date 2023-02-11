@@ -600,7 +600,7 @@ header {
   background-repeat: no-repeat;
   background-position: top right -50%;
   background-size: 780px;
-  background-image: url(../../img/simplex.svg);
+  background-image: url(../img/simplex.svg);
 }
 
 .simplex__content {
