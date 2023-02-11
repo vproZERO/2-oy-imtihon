@@ -1,0 +1,111 @@
+#simplex{
+    background-repeat: no-repeat;
+    background-position: top right -50%;
+    background-size: 780px;
+    background-image: url(../../img/simplex.svg);
+}
+.simplex__content{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.simplex__tittle{
+    max-width: 445px;
+    margin-left: 165px;
+    margin-bottom: 24px;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #36536B;  
+}
+.simplex__text{
+    max-width: 445px;
+    margin-left: 165px;
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #6C8294; 
+}
+.simplex__big-box{
+    display: flex;
+    max-width: 566px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 40px;
+}
+.simplex__img{
+    max-width: 263px;
+    flex-shrink: 0;
+}
+@media only screen and (max-width:1160px){
+    #simplex{
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 780px;
+        background-image: none;
+    }
+    .simplex__content{
+        padding-top: 150px;
+        padding-bottom: 150px;
+        display: block;
+    }
+    .simplex__tittle{
+        max-width: 573px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+    }
+    .simplex__text{
+        max-width: 573px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+    }
+    .simplex__big-box{
+        display: flex;
+        max-width: 363px;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        gap: 25px;
+    }
+    .simplex__img{
+        max-width: 168px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media only screen and (max-width:615px){
+    .simplex__tittle{
+        max-width: 317px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 24px;
+    }
+    .simplex__text{
+        max-width: 317px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+    }
+    .simplex__big-box{
+        display: flex;
+        max-width: 318px;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        gap: 25px;
+    }
+    .simplex__img{
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 152px;
+    }
+}
