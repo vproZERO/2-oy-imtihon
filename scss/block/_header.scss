@@ -20,8 +20,8 @@ header{
     display: flex;
     gap: 40px;
 }
-.header__item:hover {
-    color: #36536B;
+.header__list:hover {
+    color: #1f3649;
 }
 .header__item-link{
     max-width: 57px;
@@ -44,7 +44,7 @@ header{
     line-height: 18px;
     color: #FBFCFE;     
 }
-.header__menu:active {
+.header__link:active {
     background-color: #664652;
 }
 .header__menu{
