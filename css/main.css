@@ -1076,8 +1076,14 @@ header {
     display: block;
     max-width: 57px;
   }
+  .footer__icon2 {
+    margin-right: 0;
+    margin-left: 0;
+  }
   .footer__box {
     gap: 24px;
+    max-width: 120px;
+    height: 24px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
