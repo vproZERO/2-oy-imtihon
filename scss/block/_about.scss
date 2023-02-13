@@ -78,6 +78,9 @@
     }
     .about__box2{
         max-width: 536px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         margin-right: auto;
         margin-left: auto;
     }
